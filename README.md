@@ -36,12 +36,14 @@ inch = in                           - refers to an actual inch of the device scr
 milimeter = mm                      = refers to an actual inch of the device screen
 
 
-Application Layer is where the apks are hosted, there are a range of common applications such as clock, browser, dialer, etc. 
+6. Application Layer is where the apks are hosted, there are a range of common applications such as clock, browser, dialer, etc. 
 
 Application Framework Layer provides functionality for higher level services to developers to manage components such as Activity Manager, Content Providers as well as Location Manager.
 
 Libraries Layer has everything needed to develop an app, recourse files, source code, and an Android manifest, SQLite.
 
 Linux Kernel is responsible for peripheral hardware device communication that applications can use such as Camera, Wifi Driver, etc. 
+
+7. Reflection allows developers to use references to variables as objects. In other words we could print the names of variables found in our source code.  
 
 8. Gradle is Android JVM build system which will produce the .apk file after compilation. 
