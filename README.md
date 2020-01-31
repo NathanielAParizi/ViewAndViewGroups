@@ -19,6 +19,10 @@ to objects using a common interface.
 
 The Builder pattern aims to create an instance of a complex object which are built off of simple objects.
 
+Facade hides complex functionality of the system which implements an interface for the client to use.
+
+Prototype allows us to hide the complex aspects of making new objects from the client. 
+
 2. Dalvic is a software stack on the Android OS. It's primary use is for efficient storage of memory as a interpret-only Virtual Machine. Java source code when compiled turns into byte-code which then will become Dalvic bytecode which lastly becomes DVM. It's based off a Just In Time compilation, every time an app is runned, only a portion of code required for exeuction will be translated into machine code for that given moment. The format for a Dalvic file is a called a ".dex" file. ART, Android RunTime compiles the Dalvik bytecode itself to system-dependent binary. All source code will be precompiled before instalation allowing for better speed when launching the app without the need of JIT compilation. ART is used for translation of bytecode into native instructions that will be executed afterwards in the runtime environment.
 
 3. Android manifest is used to define the structure, specific requirements, and user permissions of the application. It is in XML and found in the root directory of the project hierarchy.
